@@ -1,4 +1,4 @@
--- Made By Proto-
+-- Made By Lord1k-
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Script Loaded";
