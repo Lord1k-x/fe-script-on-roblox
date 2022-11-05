@@ -1,8 +1,8 @@
 -- Made By Lord1k-
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "Script Loaded";
-    Text = "Sub To Prototype RBLX";
+    Title = "Script Loaded:)";
+    Text = "Sub To Pandora Hub";
     Duration = 20;
 })
 
