@@ -989,7 +989,7 @@ function notify(msg,forever)
 end
 
 wait(0.5)
-notify("PRESS [Z] TO EQUIP KNIFE || Created by mustardfoot and Tollonis",true)
+notify("PRESS [Z] TO EQUIP KNIFE || Reanimated by Lord1k",true)
 local laugh = Instance.new('Sound',me.Head)
 laugh.SoundId = 'rbxassetid://378827985'
 laugh.Name = "Psycho"
