@@ -1,3 +1,4 @@
+---By Lord1k#2111---
 local Plr = game:GetService("Players").LocalPlayer
 local Mouse = Plr:GetMouse()
 
