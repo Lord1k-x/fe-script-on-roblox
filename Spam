@@ -1,0 +1,34 @@
+--BROUGHT TO YOU BY RSCRIPTS.NET!--
+
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local UI = Material.Load({
+     Title = "Frise X Spam",
+     Style = 1,
+     SizeX = 300,
+     SizeY = 150,
+     Theme = "Dark"
+})
+
+-- // Main \\ --
+local main = UI.New({
+    Title = ""
+})
+
+main.TextField({
+    Text = "Your text",
+    Callback = function(v)
+        getgenv().Text = v
+    end
+})
+
+main.Toggle({
+    Text = "Start SPAM",
+    Enabled = false,
+    Callback = function(v)
+        getgenv().Send = v
+        while getgenv().Send do wait(2.2)
+            game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(getgenv().Text,"All")
+        end
+    end
+})
